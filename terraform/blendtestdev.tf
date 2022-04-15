@@ -2,10 +2,10 @@ module "blendtestdev" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "asingh+blendtestdev@blend.com"
-    AccountName               = "blendtestdev"
+    AccountEmail              = "asingh+blendtestdev1@blend.com"
+    AccountName               = "blendtestdev1"
     ManagedOrganizationalUnit = "BlendTestOrganizationUnit"
-    SSOUserEmail              = "asingh+blendtestdev@blend.com"
+    SSOUserEmail              = "asingh+blendtestdev1@blend.com"
     SSOUserFirstName          = "Angad"
     SSOUserLastName           = "Singh"
   }
