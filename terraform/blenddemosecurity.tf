@@ -1,11 +1,11 @@
-module "blendtestsecOU" {
+module "blenddemosecurity" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "asingh+blendtestsecOU@blend.com"
-    AccountName               = "blendtestsecOU"
-    ManagedOrganizationalUnit = "Security"
-    SSOUserEmail              = "asingh+blendtestsecOU@blend.com"
+    AccountEmail              = "asingh+blenddemosecurity@blend.com"
+    AccountName               = "blenddemosecurity"
+    ManagedOrganizationalUnit = "BlendTestOrganizationUnit"
+    SSOUserEmail              = "asingh+blenddemosecurity@blend.com"
     SSOUserFirstName          = "Angad"
     SSOUserLastName           = "Singh"
   }
@@ -23,5 +23,5 @@ module "blendtestsecOU" {
     group = "non-prod"
   }
 
-  account_customizations_name = "blendtestsecOU"
+  account_customizations_name = "blenddemosecurity"
 }
