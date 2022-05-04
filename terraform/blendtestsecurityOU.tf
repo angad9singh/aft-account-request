@@ -4,7 +4,7 @@ module "blendtestsecurityOU" {
   control_tower_parameters = {
     AccountEmail              = "asingh+blendtestsecurityOU@blend.com"
     AccountName               = "blendtestsecurityOU"
-    ManagedOrganizationalUnit = "Security"
+    ManagedOrganizationalUnit = "BlendTestOrganizationUnit"
     SSOUserEmail              = "asingh+blendtestsecurityOU@blend.com"
     SSOUserFirstName          = "Angad"
     SSOUserLastName           = "Singh"
